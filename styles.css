@@ -1,0 +1,58 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif!important;
+    font-size: 23px!important;
+    color: cadetblue!important;
+    background-color: beige!important;
+    text-align:center!important;
+
+}
+    .centered-image {
+        display: block!important;
+        margin-left: auto!important;
+        margin-right: auto!important;
+    
+    }
+
+h1 {
+    font-size: 50px!important;
+    font-style: bold!important;
+    color: darkcyan!important;
+    text-align: center!important;
+
+}
+ul li {
+    display: inline-block!important; /* Display list items inline */
+    margin-right: 10px!important; /* Add some spacing between list items */
+    text-align: right!important;
+}
+ul {
+    text-align: center!important; /* Center the text within the list */
+    padding-left: 0!important; /* Remove default left padding to align with bullet points */
+    list-style-position: inside!important; /* Position the bullet points inside the list items
+     */
+
+}
+ol {
+    text-align: center!important;
+}
+ol li {
+    display: inline-block!important; /* Display list items inline */
+    margin-right: 10px!important; /* Add some spacing between list items */
+    text-align: left!important; /* Align text to the left within list items */
+    list-style-position: inside!important;
+}
+.sublist {
+    font-size: 16px!important; /* Adjust the font size as needed */
+    text-align: center!important;
+}
+
+.sublist li {
+    font-size: inherit!important; /* Inherit font size from the parent (sublist) */
+    text-align: center!important;
+}
+
+.bordered-image {
+    border: 2px solid #000!important; /* Border style: 2px solid black */
+    padding: 10px!important;
+}
+
